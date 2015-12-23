@@ -1,0 +1,457 @@
+:root {
+
+    /*----------------------------------
+     |
+     |             COLOURS
+     |
+     ---------------------------------*/
+
+}
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+.text-center { text-align: center; }
+.text-light {
+    color: #fff;
+}
+* {
+    font-family: "proxima-nova", sans-serif;
+}
+p, a, li, span, h1, h2, h3, h4, label {
+    color: #444;
+}
+
+h1, h2, h3, h4 {
+    font-family: 'jaf-bernina-sans-comp', serif;
+    line-height: 1.6em;
+    margin: 0 0 1em 0;
+}
+
+h1 {
+    font-size: 63.968px;
+    font-size: 3.998rem;
+}
+
+h2 {
+    font-size: 45.232px;
+    font-size: 2.827rem;
+}
+
+h3 {
+    font-size: 31.984px;
+    font-size: 1.999rem;
+}
+
+h4 {
+    font-size: 22.624px;
+    font-size: 1.414rem;
+}
+
+p, a, li, span, label, input, textarea, select, button {
+    font-size: 16px;
+    font-size: 1rem;
+    line-height: 1.6em;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(235, 75, 134);
+    border-bottom: 1px dashed rgb(235, 75, 134);
+}
+
+
+
+
+.Section__heading {
+    text-align: center;
+    color: rgb(235, 75, 134);
+}
+
+.Section__sub-heading {
+    color: rgb(235, 75, 134);
+}
+input[type="text"], textarea, select {
+    display: block;
+    border: 1px solid rgb(78, 52, 73);
+    outline: none;
+    width: 100%;
+    padding: 4.8px;
+    padding: .3rem;
+}
+
+select {
+    background: none;
+}
+
+input[type=checkbox] {
+    padding: 16px;
+    padding: 1rem;
+}
+
+button {
+    padding: .2em 1em;
+    color: #fff;
+
+    background: rgb(78, 52, 73);
+    border: 2px solid #fff;
+    outline: 2px solid rgb(78, 52, 73);
+}
+
+button:hover {
+    color: rgb(78, 52, 73);
+    background: #fff;
+}
+
+button:active {
+    color: #fff;
+    background: rgb(235, 75, 134);
+    border: 2px solid rgb(235, 75, 134);
+    outline: 2px solid rgb(235, 75, 134);
+}
+
+.Button--large {
+    font-size: 24px;
+    font-size: 1.5rem;
+}
+
+.inline .Form__group {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+}
+.inline label {
+    -webkit-box-flex: 1;
+    -webkit-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
+    -webkit-align-self: center;
+        -ms-flex-item-align: center;
+            align-self: center;
+}
+
+.inline input, textarea, select {
+    -webkit-box-flex: 3;
+    -webkit-flex: 3;
+        -ms-flex: 3;
+            flex: 3;
+}
+.Header {
+    box-shadow: 0 1px 2px 1px rgba(0, 0, 0, .1);
+}
+
+.Navigation {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 100%;
+    padding-top: 32px;
+    padding-top: 2rem;
+}
+
+.Navigation__brand {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-flex: 1;
+    -webkit-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
+
+    -webkit-box-pack: center;
+
+    -webkit-justify-content: center;
+
+        -ms-flex-pack: center;
+
+            justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+
+
+.Brand__image {
+    width: 30%;
+    padding: 5px;
+
+    border: 3px solid rgb(78, 52, 73);
+}
+
+.Brand__subheading {
+    margin: 16px;
+    margin: 1rem;
+
+    font-family: 'nouvelle-vague', script;
+    font-size: 48px;
+    font-size: 3rem;
+
+    text-shadow: 1px 1px 2px rgb(174, 215, 204);
+
+    color: rgb(235, 75, 134);
+}
+
+.Navigation__menu {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-flex: 1;
+    -webkit-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
+    -webkit-flex-flow: row wrap;
+        -ms-flex-flow: row wrap;
+            flex-flow: row wrap;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+
+    margin-bottom: 0;
+
+    list-style: none;
+}
+
+.Menu__item {
+    display: block;
+    min-width: 128px;
+    min-width: 8rem;
+    margin: 0 32px;
+    margin: 0 2rem;
+    text-align: center;
+}
+
+.Menu__item:hover {
+    background: rgb(78, 52, 73);
+}
+
+.Menu__item:hover .Menu__link {
+    color: #fff;
+}
+
+.Menu__link {
+    display: block;
+    padding: 16px;
+    padding: 1rem;
+    width: 100%;
+    height: 100%;
+
+    color: rgb(78, 52, 73);
+    text-decoration: none;
+    border: none;
+}
+.Section {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-flow: column;
+        -ms-flex-flow: column;
+            flex-flow: column;
+    -webkit-align-content: center;
+        -ms-flex-line-pack: center;
+            align-content: center;
+
+    min-height: 100vh;
+
+    padding-top: 2em;
+    padding-bottom: 2em;
+
+    box-shadow: 0 1px 2px 1px rgba(0, 0, 0, .1);
+}
+
+.Section__content {
+    width: 50%;
+    margin: 0 auto;
+}
+.Colours {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    padding: 0;
+    list-style: none;
+}
+
+.Colours {
+    -webkit-align-self: center;
+        -ms-flex-item-align: center;
+            align-self: center;
+    width: 60%;
+}
+
+.Colour__box {
+    height: 96px;
+    height: 6rem;
+}
+
+.Colour__colour--purple {
+    -webkit-box-flex: 3;
+    -webkit-flex: 3;
+        -ms-flex: 3;
+            flex: 3;
+}
+
+.Colour__colour--pink {
+    -webkit-box-flex: 2;
+    -webkit-flex: 2;
+        -ms-flex: 2;
+            flex: 2;
+}
+
+.Colour__colour--teal {
+    -webkit-box-flex: 1;
+    -webkit-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
+}
+
+.Colour__box--purple {
+    background: rgb(78, 52, 73);
+}
+
+.Colour__box--pink {
+    background: rgb(235, 75, 134);
+}
+
+.Colour__box--teal {
+    background: rgb(174, 215, 204);
+}
+
+.Colour__hex {
+    display: block;
+    padding: 16px;
+    padding: 1rem;
+    width: 100%;
+
+    font-size: 20.8px;
+    font-size: 1.3rem;
+
+    text-align: center;
+}
+
+.Colour__hex--purple {
+    color: rgb(78, 52, 73);
+}
+
+.Colour__hex--pink {
+    color: rgb(235, 75, 134);
+}
+
+.Colour__hex--teal {
+    color: rgb(174, 215, 204);
+}
+.Logos {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: row;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    margin-bottom: 32px;
+    margin-bottom: 2rem;
+}
+
+.Logos__type {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-flex: 1;
+    -webkit-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+}
+
+.Logos__type--dark {
+    background: rgb(78, 52, 73);
+}
+
+.Logo__image {
+    width: 100%;
+}
+
+.Logo__description {
+    padding: 0 16px;
+    padding: 0 1rem;
+}
+
+.Logo__image--orignal {
+    border: 5px solid rgb(78, 52, 73);
+}
+
+.Logo__image--dark {
+    border: 5px solid #fff;
+}
+.Typography {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    margin-bottom: 32px;
+    margin-bottom: 2rem;
+}
+
+.Typography__section {
+    -webkit-box-flex: 1;
+    -webkit-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
+    padding: 0 32px;
+    padding: 0 2rem;
+}
+
+.Typography__section:not(:last-child) {
+    border-right: 1px dashed rgb(174, 215, 204);
+}
+.Forms {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.Form__section {
+    -webkit-box-flex: 1;
+    -webkit-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
+
+    padding: 0 2em;
+}
+
+.Form__section:not(:last-child) {
+    border-right: 1px dashed rgb(174, 215, 204);
+}
+
+.Form__group {
+    margin-bottom: 32px;
+    margin-bottom: 2rem;
+}
+/*# sourceMappingURL=app.css.map */

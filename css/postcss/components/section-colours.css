@@ -1,0 +1,60 @@
+.Colours {
+    display: flex;
+    padding: 0;
+    list-style: none;
+}
+
+.Colours {
+    align-self: center;
+    width: 60%;
+}
+
+.Colour__box {
+    height: 6rem;
+}
+
+.Colour__colour--purple {
+    flex: 3;
+}
+
+.Colour__colour--pink {
+    flex: 2;
+}
+
+.Colour__colour--teal {
+    flex: 1;
+}
+
+.Colour__box--purple {
+    background: var(--colour-purple);
+}
+
+.Colour__box--pink {
+    background: var(--colour-pink);
+}
+
+.Colour__box--teal {
+    background: var(--colour-teal);
+}
+
+.Colour__hex {
+    display: block;
+    padding: 1rem;
+    width: 100%;
+
+    font-size: 1.3rem;
+
+    text-align: center;
+}
+
+.Colour__hex--purple {
+    color: var(--colour-purple);
+}
+
+.Colour__hex--pink {
+    color: var(--colour-pink);
+}
+
+.Colour__hex--teal {
+    color: var(--colour-teal);
+}

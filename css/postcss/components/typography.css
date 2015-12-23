@@ -1,0 +1,51 @@
+* {
+    font-family: "proxima-nova", sans-serif;
+}
+p, a, li, span, h1, h2, h3, h4, label {
+    color: #444;
+}
+
+h1, h2, h3, h4 {
+    font-family: 'jaf-bernina-sans-comp', serif;
+    line-height: 1.6em;
+    margin: 0 0 1em 0;
+}
+
+h1 {
+    font-size: 3.998rem;
+}
+
+h2 {
+    font-size: 2.827rem;
+}
+
+h3 {
+    font-size: 1.999rem;
+}
+
+h4 {
+    font-size: 1.414rem;
+}
+
+p, a, li, span, label, input, textarea, select, button {
+    font-size: 1rem;
+    line-height: 1.6em;
+}
+
+a {
+    text-decoration: none;
+    color: var(--colour-pink);
+    border-bottom: 1px dashed var(--colour-pink);
+}
+
+
+
+
+.Section__heading {
+    text-align: center;
+    color: var(--colour-pink);
+}
+
+.Section__sub-heading {
+    color: var(--colour-pink);
+}

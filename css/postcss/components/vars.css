@@ -1,0 +1,16 @@
+:root {
+
+    /*----------------------------------
+     |
+     |             COLOURS
+     |
+     ---------------------------------*/
+    
+    --colour-purple: rgb(78, 52, 73);
+    --colour-pink: rgb(235, 75, 134);
+    --colour-teal: rgb(174, 215, 204);
+
+    --colour-darkgray: #444;
+    --colour-white: #fff;
+
+}

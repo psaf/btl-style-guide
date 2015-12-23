@@ -1,0 +1,75 @@
+.Header {
+    box-shadow: 0 1px 2px 1px rgba(0, 0, 0, .1);
+}
+
+.Navigation {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding-top: 2rem;
+}
+
+.Navigation__brand {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+
+    justify-content: center;
+    align-items: center;
+}
+
+
+.Brand__image {
+    width: 30%;
+    padding: 5px;
+
+    border: 3px solid var(--colour-purple);
+}
+
+.Brand__subheading {
+    margin: 1rem;
+
+    font-family: 'nouvelle-vague', script;
+    font-size: 3rem;
+
+    text-shadow: 1px 1px 2px var(--colour-teal);
+
+    color: var(--colour-pink);
+}
+
+.Navigation__menu {
+    display: flex;
+    flex: 1;
+    flex-flow: row wrap;
+    justify-content: center;
+
+    margin-bottom: 0;
+
+    list-style: none;
+}
+
+.Menu__item {
+    display: block;
+    min-width: 8rem;
+    margin: 0 2rem;
+    text-align: center;
+}
+
+.Menu__item:hover {
+    background: var(--colour-purple);
+}
+
+.Menu__item:hover .Menu__link {
+    color: #fff;
+}
+
+.Menu__link {
+    display: block;
+    padding: 1rem;
+    width: 100%;
+    height: 100%;
+
+    color: var(--colour-purple);
+    text-decoration: none;
+    border: none;
+}

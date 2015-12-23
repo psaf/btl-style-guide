@@ -1,0 +1,13 @@
+.Typography {
+    display: flex;
+    margin-bottom: 2rem;
+}
+
+.Typography__section {
+    flex: 1;
+    padding: 0 2rem;
+}
+
+.Typography__section:not(:last-child) {
+    border-right: 1px dashed var(--colour-teal);
+}

@@ -1,0 +1,52 @@
+input[type="text"], textarea, select {
+    display: block;
+    border: 1px solid var(--colour-purple);
+    outline: none;
+    width: 100%;
+    padding: .3rem;
+}
+
+select {
+    background: none;
+}
+
+input[type=checkbox] {
+    padding: 1rem;
+}
+
+button {
+    padding: .2em 1em;
+    color: var(--colour-white);
+
+    background: var(--colour-purple);
+    border: 2px solid var(--colour-white);
+    outline: 2px solid var(--colour-purple);
+}
+
+button:hover {
+    color: var(--colour-purple);
+    background: var(--colour-white);
+}
+
+button:active {
+    color: var(--colour-white);
+    background: var(--colour-pink);
+    border: 2px solid var(--colour-pink);
+    outline: 2px solid var(--colour-pink);
+}
+
+.Button--large {
+    font-size: 1.5rem;
+}
+
+.inline .Form__group {
+    display: flex;
+}
+.inline label {
+    flex: 1;
+    align-self: center;
+}
+
+.inline input, textarea, select {
+    flex: 3;
+}

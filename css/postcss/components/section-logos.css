@@ -1,0 +1,32 @@
+.Logos {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 2rem;
+}
+
+.Logos__type {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+}
+
+.Logos__type--dark {
+    background: var(--colour-purple);
+}
+
+.Logo__image {
+    width: 100%;
+}
+
+.Logo__description {
+    padding: 0 1rem;
+}
+
+.Logo__image--orignal {
+    border: 5px solid var(--colour-purple);
+}
+
+.Logo__image--dark {
+    border: 5px solid var(--colour-white);
+}
+

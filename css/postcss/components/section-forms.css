@@ -1,0 +1,17 @@
+.Forms {
+    display: flex;
+}
+
+.Form__section {
+    flex: 1;
+
+    padding: 0 2em;
+}
+
+.Form__section:not(:last-child) {
+    border-right: 1px dashed var(--colour-teal);
+}
+
+.Form__group {
+    margin-bottom: 2rem;
+}
